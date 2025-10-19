@@ -49,6 +49,15 @@ nav ul li:hover {
     display: flex;
     justify-content: space-evenly;
 }
+.content article {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 70px;
+    color: lightgray;
+    margin-right: 200px;
+    width: 400px;
+}
 h1 {
     color: white;
     width: 400px;
@@ -72,9 +81,9 @@ h1 {
 }
 .buttons {
     display: flex;
-    margin-left: 20%;
+    margin-left: 20rem;
     gap: 3rem;
-    margin-top: 2rem;
+    margin-top: -8rem;
 
 }
 h2 {
