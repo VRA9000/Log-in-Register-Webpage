@@ -138,16 +138,22 @@ h2 {
     margin-top: 30px;
     display: block;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     line-height: 2;
 
+}
+.container .inner_box label{
+    text-align: left;
+    align-items: left;
+    justify-content: left;
 }
 .container .inner_box input {
     padding: 0.5rem;
     border-radius: 4px;
     border: none;
     cursor: pointer;
+       text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .container .inner_box input:focus {
     border: 1px solid black;
@@ -169,4 +175,74 @@ h2 {
 .container button:hover {
     background-color: rgb(119, 241, 119) ;
     border:white;
+}
+.checkbox {
+    display: flex;
+    margin: auto;
+    margin-left: 60px;
+    position: absolute;
+     font-size: 10px;
+}
+.text__box article{
+    display: block;
+    margin-left: 86px;
+    margin-top: -1px;
+}
+
+
+ .first__section {
+    background: linear-gradient(180deg, rgb(4, 4, 29), rgb(72, 80, 126), white);
+    height: 200vh;
+ }
+
+
+
+
+
+
+
+            /* MEDIA */
+@media (max-width:1030px){
+    .container {
+        display: none;
+    }
+    header nav ul li {
+        font-size: 13px;
+    }
+
+    .content {
+        display: flex;
+    }
+    .buttons {
+        display: none;
+
+    }
+
+
+}
+
+@media (max-width:665px) {
+    .text__box {
+        display: none;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        margin-left: -1px;
+        margin-top: 50px;
+
+    }
+    .container{
+        display: block;
+        position: absolute;
+        margin-right: 20px;
+        margin-top: 400px;
+        margin-left: -200px ;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+
+
 }
