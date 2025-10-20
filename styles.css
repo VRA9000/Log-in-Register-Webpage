@@ -349,10 +349,8 @@ h2 {
        flex-direction: column;
        background: rgba(29, 49, 105, 0.603);
        color: white;
-       top: 0;
-       left: 0;
        transition: .7s;
-       width:  100px;
+       width:  200px;
        z-index: 1;
     }
     .sideNavBar a {

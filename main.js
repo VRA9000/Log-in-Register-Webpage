@@ -1,7 +1,7 @@
 
 
 function  menuToggle() {
-    document.getElementById("sideNavBar").style.width = "250px";
+    document.getElementById("sideNavBar").style.height = "250px";
 }
 
 function closeNav(){
