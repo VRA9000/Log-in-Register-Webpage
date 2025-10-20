@@ -58,20 +58,16 @@ nav ul li:hover {
     margin-right: 200px;
     width: 400px;
 }
-h1 {
-    color: white;
-    width: 400px;
-    margin-left: 20%;
-}
 
  .buttons button {
     display: flex;
-    margin-left: 1%;
+    margin-top: 8rem;
     background-color: aqua;
     padding: 0.9rem 2rem;
     border-radius: 10px;
     cursor: pointer;
     border: none;
+    font-size: 32px;
 }
 .buttons button:hover {
     opacity: 0.6;
@@ -98,6 +94,9 @@ h2 {
     padding: 2rem 1rem;
     border-radius: 5px;
     box-shadow: 1px 7px 9px 5px rgb(65, 64, 64);
+    padding: 3rem;
+    height: 470px;
+
 }
 .container .social_media a {
     text-decoration: none;
@@ -108,6 +107,8 @@ h2 {
     cursor: pointer;
     font-weight: 600;
     color: black;
+    font-size: 22px;
+     transition: 1s;
     
 }
 .container .social_media a:hover {
@@ -120,9 +121,10 @@ h2 {
     align-items: center;
     justify-content: center;
     position: relative;
-    padding: 0.5rem 0.8rem;
+    padding: 0.8rem 1rem;
     cursor: pointer;
     border-radius: 4px;
+    transition: 1s;
 }
 .container .social_media span:hover {
     background-color: lightgrey;
@@ -134,6 +136,7 @@ h2 {
     align-items: center;
     justify-content: center;
     position: absolute;
+    margin-top: 3px;
 }
 .container .inner_box{
     margin-top: 30px;
@@ -146,32 +149,45 @@ h2 {
     text-align: left;
     align-items: left;
     justify-content: left;
+    font-size: 20px;
 }
 .container .inner_box input {
     padding: 0.5rem;
     border-radius: 4px;
     border: none;
-    cursor: pointer;
-       text-align: center;
+    cursor: text;
+    text-align: center;
     align-items: center;
     justify-content: center;
+    font-size: 20px;
+    width: 400px;
+    border: 1px solid black;
+    transition: 1s;
 }
 .container .inner_box input:focus {
     border: 1px solid black;
 }
+.container .inner_box input:hover {
+    border: 1px solid black;
+    background-color: rgb(129, 158, 194);
+    color: black;
+    font-weight: 700;
+}
 .container button {
     margin: auto;
-    width: 200px;
+    width: 300px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding: 0.3rem 0.4rem;
+    padding: 0.3rem 0.9rem;
     margin-top: 20px;
     background-color: white;
     border: 1px solid black;
     cursor: pointer;
     background-color: rgb(130, 204, 130);
     border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 2rem;
 }
 .container button:hover {
     background-color: rgb(119, 241, 119) ;
@@ -182,12 +198,27 @@ h2 {
     margin: auto;
     margin-left: 60px;
     position: absolute;
-     font-size: 10px;
+     font-size: 14px;
+}
+h1 {
+    color: white;
+    font-size: 42px;
+}
+
+.text__box {
+    margin-top: 3rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .text__box article{
-    display: block;
-    margin-left: 86px;
-    margin-top: -1px;
+    display:block;
+    font-size: 32px;
+     text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+   
 }
 
 
