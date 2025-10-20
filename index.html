@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in page</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/64b53f888e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -20,7 +21,17 @@
                 </ul>
             </nav>
 
-            <div class="login">Log in</div>
+            <div class="menu" id="menuShow" onclick="menuToggle()"><i class="fa-notdog fa-solid fa-bars"></i></div>
+
+            <div class="sideNavBar" id="sideNavBar">
+                <a href="javascript:void(0)" class="closebtn" id="closeBtn" onclick="closeNav()">&times;</a>
+                <a href="/">About</a>
+                <a href="/">More</a>
+                <a href="/">Products</a>
+                <a href="/">Services</a>
+                <a href="/">Customers</a>
+                <a href="/">Contact Us</a>
+            </div>
 
         
     </header>
@@ -42,7 +53,7 @@
 
 
         <form class="inner_box">
-            <label for="Username">Usename</label> <br>
+            <label for="Username">Username</label> <br>
             <input type="text" placeholder="Username"> <br>
             <label for="Username">Email</label><br>
             <input type="email" placeholder="Email"> <br>
@@ -61,7 +72,7 @@
         </div>
 
         <section class="first__section">
-            
+
         </section>
    
     

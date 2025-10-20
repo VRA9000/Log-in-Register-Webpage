@@ -97,6 +97,7 @@ h2 {
     display: block;
     padding: 2rem 1rem;
     border-radius: 5px;
+    box-shadow: 1px 7px 9px 5px rgb(65, 64, 64);
 }
 .container .social_media a {
     text-decoration: none;
@@ -194,6 +195,10 @@ h2 {
     background: linear-gradient(180deg, rgb(4, 4, 29), rgb(72, 80, 126), white);
     height: 200vh;
  }
+ .sideNavBar {
+        display: none;
+    }
+
 
 
 
@@ -203,9 +208,7 @@ h2 {
 
             /* MEDIA */
 @media (max-width:1030px){
-    .container {
-        display: none;
-    }
+   
     header nav ul li {
         font-size: 13px;
     }
@@ -216,6 +219,33 @@ h2 {
     .buttons {
         display: none;
 
+    }
+    .text__box {
+        display: none;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        margin-left: -1px;
+        margin-top: 50px;
+
+    }
+    .container{
+        display: block;
+        position: absolute;
+        margin-right: 20px;
+        margin-top: 400px;
+        margin-left: -200px ;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+    .menu  .fa-notdog{
+        display: none;
+    }
+    .sideNavBar {
+        display: none;
     }
 
 
@@ -242,6 +272,102 @@ h2 {
         text-align: center;
         align-items: center;
 
+    }
+    .menu  .fa-notdog{
+        display: none;
+    }
+    .sideNavBar {
+        display: none;
+    }
+    .sideNavBar {
+       display: flex;
+       flex-direction: column;
+       background: rgba(29, 49, 105, 0.603);
+       color: white;
+       top: 0;
+       left: 0;
+       transition: .7s;
+       width:  100%;
+       z-index: 1;
+    }
+    .sideNavBar a {
+        color: white;
+        text-decoration: none;
+        margin-left: 0;
+        font-size: 15px;
+        padding: 1rem;
+        transition: 0.7s;
+        
+
+    }
+    .sideNavBar a:hover {
+        background-color:rgba(49, 84, 180, 0.603) ;
+    }
+    
+
+
+
+
+}
+
+@media (max-width:375px) {
+    nav {
+        display: none;
+    }
+    .container {
+        width: 300px;
+    }
+    .container .inner_box label {
+        font-size: 16px;
+    }
+    .container span {
+        margin-left: -10px;
+    }
+    .container .social_media {
+        font-size: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+    .menu {
+        position :relative;
+    }
+    .menu  .fa-notdog {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 0;
+        font-size: 30px;
+        position: absolute;
+        margin-left:200px;
+        cursor: pointer;
+        color: #FFD43B;
+
+    }
+    .sideNavBar {
+       display: flex;
+       flex-direction: column;
+       background: rgba(29, 49, 105, 0.603);
+       color: white;
+       top: 0;
+       left: 0;
+       transition: .7s;
+       width:  100px;
+       z-index: 1;
+    }
+    .sideNavBar a {
+        color: white;
+        text-decoration: none;
+        margin-left: 0;
+        font-size: 20px;
+        padding: 1rem;
+        transition: 0.7s;
+        font-size: 15px;
+        
+
+    }
+    .sideNavBar a:hover {
+        background-color:rgba(49, 84, 180, 0.603) ;
     }
 
 
