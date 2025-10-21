@@ -193,17 +193,16 @@ h2 {
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding: 0.3rem 0.9rem;
+    padding: 0.7rem 0.9rem;
     margin-top: 20px;
-    background-color: white;
     border: 1px solid black;
     cursor: pointer;
-    background-color: rgb(130, 204, 130);
+    background-color: rgba(34, 233, 233, 0.541);
     border-radius: 5px;
     font-size: 20px;
     margin-bottom: 2rem;
 }
-.container button:hover {
+.content .inner_box button:hover {
     background-color: rgb(119, 241, 119) ;
     border:black 1px solid;
 }
@@ -375,9 +374,6 @@ h1 {
 
     .social_media {
         margin-top: 5rem;
-    }
-    .container span {
-        margin-left: -10px;
     }
     .container .social_media {
         font-size: 16px;
