@@ -55,6 +55,9 @@ nav ul li:hover {
     display: flex;
     justify-content: space-evenly;
 }
+.yellow__text{
+    color: bisque;
+}
 .content article {
     display: flex;
     flex-wrap: wrap;
@@ -86,6 +89,7 @@ nav ul li:hover {
     margin-left: 20rem;
     gap: 3rem;
     margin-top: -8rem;
+    position: relative;
 
 }
 h2 {
@@ -183,7 +187,7 @@ h2 {
     color: black;
     font-weight: 700;
 }
-.container button {
+.content .inner_box button {
     margin: auto;
     width: 300px;
     text-align: center;
@@ -201,7 +205,7 @@ h2 {
 }
 .container button:hover {
     background-color: rgb(119, 241, 119) ;
-    border:white;
+    border:black 1px solid;
 }
 .checkbox {
     display: flex;
@@ -251,7 +255,7 @@ h1 {
 @media (max-width:1030px){
    
     header nav ul li {
-        font-size: 13px;
+        font-size: 22px;
     }
 
     .content {
@@ -293,6 +297,13 @@ h1 {
 }
 
 @media (max-width:665px) {
+
+    header nav ul li {
+        font-size: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        white-space-collapse: collapse;
+    }
     .text__box {
         display: none;
         align-items: center;
@@ -361,6 +372,10 @@ h1 {
     .container .inner_box label {
         font-size: 16px;
     }
+
+    .social_media {
+        margin-top: 5rem;
+    }
     .container span {
         margin-left: -10px;
     }
@@ -368,8 +383,11 @@ h1 {
         font-size: 16px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
 
+    }
+    .social_media span {
+        margin-top: 3rem;
     }
     .menu {
         position :relative;
